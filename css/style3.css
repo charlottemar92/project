@@ -1,0 +1,132 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("../images/background.jpg");
+	font-family: 'thabit', sans-serif;
+}
+                 /************header****************/
+h1{
+	color: #232b37;
+	text-align: center;
+	position: absolute;
+	right: 270px;
+	top: 55px;
+	font-size: 40px;
+}
+header{
+	background-color: #882424 ;
+	height: 170px;
+	position: relative;
+}
+header img {
+	height: 110px;
+	width: 170px;
+	position: absolute;
+	right: 60px;
+	top: 35px;
+	 border-radius: 50%;
+}
+img {
+	width: 250px;
+	height: 200px;
+}
+                 /***********end header***********/
+
+                 /***********main****************/
+.main{
+	position: relative;
+	height: 400px;
+}
+form{
+	height: 400px;
+	font-size: 15px;
+	font-family: 'lateef' ;
+	color: #111449;
+}
+.element1,.element2,.element3{
+	position: absolute;
+	right: 300px;
+	width: 800px;
+	height: 100px;
+	margin :20px 20px 20px 20px;
+	font-weight: bold;
+}
+.element2{
+	top: 130px;
+}
+.element3{
+	top: 250px;
+}
+.element4{
+	position: absolute;
+	right: 750px;
+    margin :20px 20px 20px 20px;
+    top: 350px;
+}
+.element4 button{
+	width: 200px;
+	font-size: 15px;
+	color: #111449;
+	font-weight: bold;
+}
+.element1 legend,.element2 legend,.element3 legend{
+	  border :1px solid #d8930d ;
+	  padding: 5px 5px 5px 5px;
+	  background-color: #6a5858;
+	  position: absolute;
+	  right: 10px;
+	  top: -15px;
+}
+.element1 fieldset{
+	position: relative;
+	height: 110px;
+	border :1px solid #d8930d ;
+	background-color: #8a4949;
+}
+.element2 fieldset,.element3 fieldset{
+	height: 80px;
+	border :1px solid #d8930d ;
+	position: relative;
+	background-color: #8a4949;
+}
+.label2{
+	 position: absolute;
+	 right: 170px;	
+	 top :15px;
+}
+.label1{
+	 position: absolute;
+	 right: 170px;
+	 top :70px;
+}
+select{
+	font-size: 15px;
+	color: #111449;
+	font-weight: bold;
+}
+              /**********end main************/
+
+              /***********footer************/
+footer{
+	position: relative;
+	margin-top: 10px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #232b37;
+    border-top: 0;
+    height: 150px;
+}
+footer .home {
+ position: absolute;
+ right: 650px;
+ font-size: 25px;
+}
+ .home a:hover  , .home a:focus , .home a{
+  text-decoration: none;
+  color: #371212;
+	 font-weight: bold;
+}
+            /************end footer***********/
